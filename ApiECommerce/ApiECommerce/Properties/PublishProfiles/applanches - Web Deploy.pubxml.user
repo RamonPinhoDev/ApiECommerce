@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9+xkEtsSzUWKiqexmhulWgAAAAACAAAAAAAQZgAAAAEAACAAAACXYKB6N/aikA+ECCkWCC9m9jZ7E9xIH1Y0tkyA8w4ixAAAAAAOgAAAAAIAACAAAADTYmL4MTrT6GoYxtG4yF3BnbMG+9jV5o+U1/AedBfqeYAAAABWQrWT1enLOxyIM+pLKlDiMLVfULSLrK3ySn8SJuTEpUCeKn9eYVgHsJb12l2FyCFjP3FesrgH9LuF21Qdm4mXzVU/4kWUdZSVygjJeD8lmelvF+8H2tb66X53QEqBDOP9AYvej0+2gBfrmq8Mz9p5BVoZS6o1Byk4g/VQMll9iUAAAAA2PX7dfG6XJIf3DN322qbbEVwgXeAiFVJlfuUwtFejqMiSFPM1Qz4fZYDpLdDSIf5g9yqyJfBp03hhFSTFfSnE</EncryptedPassword>
+    <History>True|2024-09-10T11:13:39.9593558Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:applanchesserver.database.windows.net,1433%3bInitial Catalog=AppLanchesDb%3bPersist Security Info=False%3bUser ID=macoratti%3bPassword=Numsey#2024%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ApiECommerce.Context.AppDbContext">
+      <Value>Server=tcp:applanchesserver.database.windows.net,1433%3bInitial Catalog=AppLanchesDb%3bPersist Security Info=False%3bUser ID=macoratti%3bPassword=Numsey#2024%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
